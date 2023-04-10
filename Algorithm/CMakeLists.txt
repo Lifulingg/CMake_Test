@@ -50,6 +50,10 @@ file(GLOB SOURCE_CPP ${PROJECT_SOURCE_DIR}/src/*.cpp )
 #file(GLOB SOURCE_C ${PROJECT_SOURCE_DIR}/src/*.c)
 #aux_source_directory(${PROJECT_SOURCE_DIR}/src SOURCES)
 #${GlobalValue}
+
+#如果要使用link_directories(),需要将这个函数放到add_executable()前面
+#使用target_link_directories（，需要放到中间即可，即add_和link_libraries）
+
 add_executable(Algorithm_test ${SOURCE_CPP} )
 
 
