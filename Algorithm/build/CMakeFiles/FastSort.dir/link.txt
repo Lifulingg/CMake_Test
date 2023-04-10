@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -std=c99 -shared -Wl,-soname,libFastSort.so -o /home/lfl/Algorithm/lib/libFastSort.so CMakeFiles/FastSort.dir/src/FastSort.c.o 

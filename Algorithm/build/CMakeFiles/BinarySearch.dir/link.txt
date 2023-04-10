@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/lfl/Algorithm/lib/libBinarySearch.a CMakeFiles/BinarySearch.dir/src/BinarySearch.cpp.o
+/usr/bin/ranlib /home/lfl/Algorithm/lib/libBinarySearch.a
